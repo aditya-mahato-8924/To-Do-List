@@ -5,10 +5,14 @@ A simple command-line application to manage daily tasks. Users can add tasks, vi
 ---
 
 ## 📌 Features
-- Add new tasks with **Task_ID, Task_Name, Priority, Status**
+- Add new tasks with Task_ID, Date, Task_Name, Priority, Status
+- Tasks are automatically sorted by priority (High → Medium → Low)
 - View all tasks in a tabular format
 - Mark tasks as **Done**
 - Delete tasks by **Task_ID**
+- View Pending tasks only
+- View Completed tasks only
+- Delete all completed tasks at once
 - Persistent storage using **CSV file**
 
 ---
@@ -64,7 +68,10 @@ Example:
 2. View Task
 3. Mark Task as Done
 4. Delete Task
-5. Exit
+5. View Pending Task.
+6. View Completed Task.
+7. Delete all Completed Task.
+8. Exit.
 ```
 
 ---
@@ -77,15 +84,14 @@ Enter the priority level (High, Medium or Low): High
 ✅ Task added successfully!
 
 Enter your choice: 2
-  Task_ID        Task_Name Priority   Status
-0    T001  Submit assignment    High  Pending
+  Task_ID   Date     Task_Name Priority   Status
+0    T001  10.09.2025 Submit assignment    High  Pending
 ```
 
 ---
 
 ## 🎯 Future Improvements
 - Add due dates for tasks  
-- Sorting & filtering (by priority/status)  
 - Export completed tasks history  
 
 ---
