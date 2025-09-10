@@ -60,6 +60,9 @@ todo-list-cli/
 - **View Tasks** → Displays all tasks with details.  
 - **Mark Task as Done** → Enter Task_ID to update status to Done.  
 - **Delete Task** → Remove task by Task_ID.  
+- **View Pending Tasks** → Show only tasks that are still Pending.
+- **View Completed Tasks** → Show only tasks that are Done.
+- **Delete All Completed Tasks** → Bulk delete all tasks marked as Done.
 - **Exit** → Close the app.  
 
 Example:
